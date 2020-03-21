@@ -1,5 +1,7 @@
 document.getElementById("button1").onclick = function() {
-  document.getElementById("video").src = "./img/anim1.mp4";
+  document.getElementById("video").src = "./img/anim1.webm";
+  document.getElementById("video").classList.remove("hidden");
+  document.getElementById("animateGif").style.display = "none";
   // document.querySelector("body").style.backgroundColor = "#63b881";
   document.querySelector("body").classList.add("color1");
   document.querySelector("body").classList.remove("color2", "color3");
