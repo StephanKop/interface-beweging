@@ -299,21 +299,39 @@
 }
 
 #buttons a {
-  border: 2px solid white;
+  /*border: 2px solid white;*/
   border-radius: 50px;
-  padding: 1em 1.3em 1em 1.3em;
+  padding: 0.5em 0.5em 0.3em 0.5em;
   margin-left: 1em;
   margin-right: 1em;
+  /*max-width: 1em;*/
+  /*max-height: 1em;*/
   color: white;
   font-family: Arial;
+}
+
+#buttons a img {
+  max-width: 5em;
+  max-height: 5em;
+  border-radius: 50px;
+}
+
+.testpreview {
+  z-index: 10;
+  position: absolute;
+}
+
+.testpreview:hover {
+  opacity: 0;
+  transition: all .2s ease-in-out;
 }
 
 #buttons a:hover {
   transition: all .2s ease-in-out;
   box-shadow: 4px 4px 16px -5px rgba(0,0,0,0.75);
   transform: scale(1.1);
-  background-color: orange;
-  border: 2px solid orange;
+  background-color: lightcoral;
+  /*border: 2px solid orange;*/
 }
 
 #buttons a:active {
