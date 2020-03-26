@@ -52,6 +52,7 @@
 
 .testpreview:hover {
   opacity: 0;
+  /*display: none;*/
   transition: all .2s ease-in-out;
 }
 
@@ -72,7 +73,7 @@
 .color1 {
   transition: all .5s ease-in-out;
   /*background-color: #ffa875;*/
-  background-color: #07345e;
+  background-color: #043b6a;
 }
 
 .color2 {
@@ -86,6 +87,12 @@
 }
 
 .hidden {
-  display: none;
+  /*display: none;*/
+  opacity: 0;
+}
+
+.visible {
+  /*display: flex;*/
+  opacity: 100;
 }
 
