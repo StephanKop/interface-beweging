@@ -2,15 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e90ca0c7-be9c-4208-b313-20093dee9675" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/img/transition.mp4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/transition1.mp4" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/main.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/anim1.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/anim1.webm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/anim2.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/anim3.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/buttontest.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/buttontestpreview.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/character_1.mp4" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/main.js" afterDir="false" />
     </list>
@@ -63,6 +58,7 @@
       <workItem from="1584951800783" duration="2191000" />
       <workItem from="1584977982171" duration="3460000" />
       <workItem from="1585087103307" duration="6271000" />
+      <workItem from="1585217601625" duration="5943000" />
     </task>
     <servers />
   </component>

@@ -17,12 +17,14 @@
 <body class="color1">
   <div id="container">
     <div id="animation">
-<!--      <img id="animateGif" src="./img/intro.gif">-->
-      <video id="animateGif" autoplay loop muted>
-        <source src="./img/intro.mp4" type="video/webm" />
+      <video id="transition" class="transition" style="opacity: 0" muted>
+        <source src="./img/transition1.mp4" type="video/mp4" />
       </video>
-      <video id="video" class="hidden" autoplay loop>
-        <source src="./img/anim1.webm" type="video/webm" />
+      <video id="animateGif" class="fade-in" autoplay loop muted>
+        <source src="./img/intro.mp4" type="video/mp4" />
+      </video>
+      <video id="video" class="hidden" loop>
+        <source src="./img/anim1.webm" type="video/mp4" />
       </video>
     </div>
 
