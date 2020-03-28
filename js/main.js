@@ -82,7 +82,7 @@ document.getElementById("button3").onclick = function button3() {
 function setVideo3() {
   document.getElementById("video").src = "./img/anim3.mp4";
   document.getElementById("video").classList.add("fade-in");
-  setTimeout(playVideo2, 1000);
+  setTimeout(playVideo3, 1000);
 }
 
 function playVideo3() {
