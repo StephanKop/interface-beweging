@@ -1,6 +1,12 @@
+window.onload = function removeIconPreview() {
+  document.getElementById("preview1").classList.add("hidden");
+  document.getElementById("preview2").classList.add("hidden");
+  document.getElementById("preview3").classList.add("hidden");
+};
+
 document.getElementById("button1").onclick = function button1() {
-  setTimeout(setVideo1, 6000);
-  setTimeout(setFade1, 6000);
+  setTimeout(setVideo1, 4500);
+  setTimeout(setFade1, 4500);
   document.getElementById("transition").play();
   document.getElementById("video").pause();
   document.getElementById("transition").style.opacity = "100";
@@ -11,6 +17,9 @@ document.getElementById("button1").onclick = function button1() {
   document.getElementById("button1").classList.add("active");
   document.getElementById("button2").classList.remove("active");
   document.getElementById("button3").classList.remove("active");
+  document.getElementById("button1").style.backgroundColor = "deepskyblue";
+  document.getElementById("button2").style.backgroundColor = null;
+  document.getElementById("button3").style.backgroundColor = null;
   document.getElementById("preview1").classList.add("hidden");
   document.getElementById("preview2").classList.remove("hidden");
   document.getElementById("preview3").classList.remove("hidden");
@@ -32,8 +41,8 @@ function setFade1() {
 }
 
 document.getElementById("button2").onclick = function button2() {
-  setTimeout(setVideo2, 6000);
-  setTimeout(setFade2, 6000);
+  setTimeout(setVideo2, 4500);
+  setTimeout(setFade2, 4500);
   document.getElementById("transition").play();
   document.getElementById("video").pause();
   document.getElementById("transition").style.opacity = "100";
@@ -44,6 +53,9 @@ document.getElementById("button2").onclick = function button2() {
   document.getElementById("button2").classList.add("active");
   document.getElementById("button1").classList.remove("active");
   document.getElementById("button3").classList.remove("active");
+  document.getElementById("button1").style.backgroundColor = null;
+  document.getElementById("button2").style.backgroundColor = "deepskyblue";
+  document.getElementById("button3").style.backgroundColor = null;
   document.getElementById("preview1").classList.remove("hidden");
   document.getElementById("preview2").classList.add("hidden");
   document.getElementById("preview3").classList.remove("hidden");
@@ -65,8 +77,8 @@ function setFade2() {
 }
 
 document.getElementById("button3").onclick = function button3() {
-  setTimeout(setVideo3, 6000);
-  setTimeout(setFade3, 6000);
+  setTimeout(setVideo3, 4500);
+  setTimeout(setFade3, 4500);
   document.getElementById("transition").play();
   document.getElementById("video").pause();
   document.getElementById("transition").style.opacity = "100";
@@ -77,6 +89,9 @@ document.getElementById("button3").onclick = function button3() {
   document.getElementById("button3").classList.add("active");
   document.getElementById("button1").classList.remove("active");
   document.getElementById("button2").classList.remove("active");
+  document.getElementById("button1").style.backgroundColor = null;
+  document.getElementById("button2").style.backgroundColor = null;
+  document.getElementById("button3").style.backgroundColor = "deepskyblue";
   document.getElementById("preview1").classList.remove("hidden");
   document.getElementById("preview2").classList.remove("hidden");
   document.getElementById("preview3").classList.add("hidden");
