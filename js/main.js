@@ -5,8 +5,8 @@ window.onload = function removeIconPreview() {
 };
 
 document.getElementById("button1").onclick = function button1() {
-  setTimeout(setVideo1, 3500);
-  setTimeout(setFade1, 3500);
+  setTimeout(setVideo1, 3000);
+  setTimeout(setFade1, 3000);
   document.getElementById("transition").play();
   document.getElementById("video").pause();
   document.getElementById("transition").style.opacity = "100";
@@ -41,8 +41,8 @@ function setFade1() {
 }
 
 document.getElementById("button2").onclick = function button2() {
-  setTimeout(setVideo2, 3500);
-  setTimeout(setFade2, 3500);
+  setTimeout(setVideo2, 3000);
+  setTimeout(setFade2, 3000);
   document.getElementById("transition").play();
   document.getElementById("video").pause();
   document.getElementById("transition").style.opacity = "100";
@@ -77,8 +77,8 @@ function setFade2() {
 }
 
 document.getElementById("button3").onclick = function button3() {
-  setTimeout(setVideo3, 3500);
-  setTimeout(setFade3, 3500);
+  setTimeout(setVideo3, 3000);
+  setTimeout(setFade3, 3000);
   document.getElementById("transition").play();
   document.getElementById("video").pause();
   document.getElementById("transition").style.opacity = "100";
